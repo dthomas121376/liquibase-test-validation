@@ -16,7 +16,7 @@ public class TestChangelog {
     void setUp() throws SQLException {
         try {
             // Initialize the database connection
-            conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/testdb", "root", "password");
+            conn = DriverManager.getConnection("jdbc:mariadb://10.1.1.192:3306/liquibase_db", "db_admin", "Damaris@1105");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
