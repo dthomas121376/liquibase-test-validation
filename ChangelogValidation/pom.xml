@@ -40,7 +40,7 @@
             <configuration>
                 <suiteXmlFiles>
                     <suiteXmlFile>
-                        src\test\resources\test_suite.xml
+                        src\test\resources\Test_suite.xml
                     </suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
