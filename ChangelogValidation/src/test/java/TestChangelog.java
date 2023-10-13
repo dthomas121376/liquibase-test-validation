@@ -74,7 +74,7 @@ public class TestChangelog {
     @Test(priority = 3)
     private void test_test1DataExists() throws SQLException {
 
-        String query = "SELECT COUNT(*) FROM TEST1";
+        String query = "SELECT COUNT(*) FROM test1";
         try {
             PreparedStatement preStmt = conn.prepareStatement(query);
             rst = preStmt.executeQuery();
